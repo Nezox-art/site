@@ -242,7 +242,7 @@ h2 {
 .footer p span {
     color: #F7654A;
 }
-@max-widht: 1200px {
+@media screen and (max-width: 1200px) {
     body {
     font-size: 15px;
     }
