@@ -242,3 +242,67 @@ h2 {
 .footer p span {
     color: #F7654A;
 }
+max-widht: 1200px {
+    body {
+    font-size: 15px;
+    }
+    h1 {
+    font-size: 45px;
+    max-width: 600px;
+    }
+    h2 {
+    font-size: 28px;
+    margin-top: 80px;
+    }
+    .wrapper {
+    max-width: 600px;
+    }
+    .title {
+    top: calc (50%-120px);
+    }
+    .stat {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin: -110px auto 0;
+    }
+    .stat-item h3 {
+    font-size: 20px;
+    }
+    .strt-item h2 {
+    font-size: 50px;
+    }
+    .box-contact p {
+    font-size: 16px;
+    }
+    .box-contact h3 {
+    font-size: 20px;
+    }
+    .box-contact button {
+    font-size: 12px;
+    }
+    .grid {
+    grid-gap: 10px;
+    }
+    .grid-review {
+        flex-wrap: wrap;
+        font-size: 13px;
+        padding: 20px 20px;
+        margin-bottom: 20px;
+    }
+    .grid-review>div {
+        flex-basis: 100%;
+        max-width: 100%;
+
+    }
+    .grid-review-item {
+        font-size: 16px;
+    }
+    .grid-contacts {
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+    .grid-contacts>div {
+        flex-basis: 49%;
+        max-width: 49%;
+    }
+    }
