@@ -248,7 +248,7 @@ h2 {
     }
     h1 {
     font-size: 45px;
-    max-width: 600px;
+    max-width: 720px;
     }
     h2 {
     font-size: 28px;
@@ -261,9 +261,10 @@ h2 {
     top: calc (50%-120px);
     }
     .stat {
-    padding-top: 50px;
-    padding-bottom: 30px;
+    padding-top: 0;
+    padding-bottom: 0;
     margin: -110px auto 0;
+    padding: 0px 14px
     }
     .stat-item h3 {
     font-size: 20px;
@@ -284,9 +285,10 @@ h2 {
     grid-gap: 10px;
     }
     .grid-review {
+        display: flex;
         flex-wrap: wrap;
+        padding: 20px 120px;
         font-size: 13px;
-        padding: 20px 20px;
         margin-bottom: 20px;
     }
     .grid-review>div {
@@ -298,8 +300,8 @@ h2 {
         font-size: 16px;
     }
     .grid-contacts {
-        align-items: flex-start;
-        flex-wrap: wrap;
+        justify-items:center;
+        grid-template-columns: 1fr 1fr;
     }
     .grid-contacts>div {
         flex-basis: 49%;
